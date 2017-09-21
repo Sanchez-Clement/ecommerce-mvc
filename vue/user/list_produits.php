@@ -5,7 +5,7 @@ foreach ($produits as $produit) {?>
       <div class="card-image">
         <img src="img/produits/<?php echo $produit["nom_image"]?>">
 
-        <form  action="controleur/user/detail_produit_post" method="post">
+        <form  action="index.php" method="post">
           <input type="hidden" name="id" value="<?php echo $produit["id_article"]?>">
           <button type="submit" class="btn-floating btn-large halfway-fab waves-effect waves-light light-blue darken-4" ><i   class="material-icons">add</i></button>
         </form>
