@@ -9,6 +9,13 @@ global $bdd;
   WHERE i.id = ?
 
    ');
+
+
+   $req = $bdd->prepare('UPDATE informatique SET vue = vue + 1 WHERE id = :id');
+   $req->execute(array(
+   'id' => $_POST['id'],
+   ));
+   
   $reponse->execute([$id]);
 $produit = $reponse->fetchAll();
 return $produit;
