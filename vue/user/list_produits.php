@@ -1,3 +1,6 @@
+<div class="container row">
+
+
 <?php
 foreach ($produits as $produit) {?>
   <section class="col s12 m6 l4">
@@ -21,3 +24,4 @@ foreach ($produits as $produit) {?>
   </section>
 <?php }
  ?>
+</div>

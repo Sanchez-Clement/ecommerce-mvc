@@ -1,5 +1,5 @@
 
-<section id="detail" class="col s12  m8">
+<section id="detail" class="col s12  m6">
 
     <h2 class="header"><?php  echo $produit[0]['nom_article'] ; ?></h2>
     <div class="card ">
