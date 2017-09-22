@@ -43,7 +43,7 @@
             <li><a href="index.php?section=admin"><i class="material-icons">account_circle</i></a></li>
 
             <?php if (isset($_SESSION['pseudo'])) { ?>
-            <li><a href="php/logout.php" ><i class="material-icons">cancel</i></a></li>
+            <li><a href="controleur/admin/logout.php" ><i class="material-icons">cancel</i></a></li>
             <?php } ?>
           </ul>
           <ul class="side-nav" id="mobile-demo">
@@ -51,7 +51,7 @@
             <li><a href=""><i class="material-icons">view_module</i></a></li>
 
             <li><a href="php/admin.php"><i class="material-icons">account_circle</i></a></li>
-            <li><a href="php/logout.php" ><i class="material-icons">cancel</i></a></li>
+            <li><a href="controleur/admin/logout.php" ><i class="material-icons">cancel</i></a></li>
           </ul>
 
 
