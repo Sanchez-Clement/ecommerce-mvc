@@ -2,8 +2,7 @@
 $produits = get_produits();
 
 
-foreach($produits as $cle => $produit)
-{
+foreach ($produits as $cle => $produit) {
     $produits[$cle]['id_article'] = $produit['id_article'];
     $produits[$cle]['nom_image'] = htmlspecialchars($produit['nom_image']);
     $produits[$cle]['nom_article'] = htmlspecialchars($produit['nom_article']);

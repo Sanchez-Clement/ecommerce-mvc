@@ -1,8 +1,8 @@
 <?php
 function get_produits() {
-  global $bdd;
 
-$reponse = $bdd->query('
+
+$reponse = connect()->query('
 SELECT i.id id_article, i.name nom_article, i.accroche accroche_artcile, img.nom nom_image
 FROM informatique i
 INNER JOIN images img
